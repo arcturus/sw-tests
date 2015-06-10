@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+} 
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.yellow-div {
+  height: 100%;
+  width: 100%;
+  background: yellow;
+}
