@@ -18,12 +18,11 @@
   "installs_allowed_from": [
     "*"
   ],
-  "locales": {
-    "es": {
-      "name": "Aplicación vacía privilegiada",
-      "description": "Una plantilla con la mínima estructura",
-      "permissions": {}
-    }
-  },
+   "locales": {
+      "en-US": {
+        "name": "FxOS App",
+        "description": "App"
+      }
+    },
   "default_locale": "en"
 }
