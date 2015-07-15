@@ -1,0 +1,94 @@
+{
+  "version": "0.1.0",
+  "name": "benchmark-app",
+  "description": "Service Worker Benchmark App",
+  "launch_path": "/",
+  "entry_points": {
+    "baseline": {
+      "launch_path": "/baseline/index.html",
+      "name": "Baseline Benchmark",
+      "icons": {
+        "16": "/img/icons/icon16x16.png",
+         "48": "/img/icons/icon48x48.png",
+         "60": "/img/icons/icon60x60.png",
+         "128": "/img/icons/icon128x128.png"
+      },
+      "locales": {
+        "en-US": {
+          "name": "Baseline Benchmark",
+          "description": "Baseline Benchmark"
+        }
+      }
+    },
+    "empty-sw": {
+      "launch_path": "/empty-sw/index.html",
+      "name": "Empty SW Benchmark",
+      "icons": {
+        "16": "/img/icons/icon16x16.png",
+         "48": "/img/icons/icon48x48.png",
+         "60": "/img/icons/icon60x60.png",
+         "128": "/img/icons/icon128x128.png"
+      },
+      "locales": {
+        "en-US": {
+          "name": "Empty SW Benchmark",
+          "description": "Empty SW Benchmark"
+        }
+      }
+    },
+    "fetch-only-sw": {
+      "launch_path": "/fetch-only-sw/index.html",
+      "name": "Fetch-Only SW Benchmark",
+      "icons": {
+        "16": "/img/icons/icon16x16.png",
+         "48": "/img/icons/icon48x48.png",
+         "60": "/img/icons/icon60x60.png",
+         "128": "/img/icons/icon128x128.png"
+      },
+      "locales": {
+        "en-US": {
+          "name": "Fetch-Only SW Benchmark",
+          "description": "Fetch-Only SW Benchmark"
+        }
+      }
+    },
+    "simple-offline-cache": {
+      "launch_path": "simple-offline-cache/index.html",
+      "name": "SimpleOfflineCache Benchmark",
+      "icons": {
+        "16": "/img/icons/icon16x16.png",
+         "48": "/img/icons/icon48x48.png",
+         "60": "/img/icons/icon60x60.png",
+         "128": "/img/icons/icon128x128.png"
+      },
+      "locales": {
+        "en-US": {
+          "name": "SimpleOfflineCache Benchmark",
+          "description": "SimpleOfflineCache Benchmark"
+        }
+      }
+    }
+  },
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Your name",
+    "url": "http://example.com"
+  },
+  "type": "privileged",
+  "permissions": {},
+  "installs_allowed_from": [
+    "*"
+  ],
+   "locales": {
+      "en-US": {
+        "name": "SWW Benchmarking App",
+        "description": "SWW Benchmarking App"
+      }
+    },
+  "default_locale": "en"
+}
