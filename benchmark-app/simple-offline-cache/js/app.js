@@ -5,10 +5,6 @@
 
   performance.mark('benchmark-js-file-parsed');
 
-  navigator.serviceWorker.register('sw.js').catch((error) => {
-    console.error('Registration failed with ', error);
-  });
-
   exports.document.addEventListener('DOMContentLoaded', () => {
     performance.mark('benchmark-dom-content-loaded');
   });
@@ -17,11 +13,17 @@
     performance.mark('benchmark-load');
   });
 
+  var sw = null;
+  navigator.serviceWorker.getRegistration().then(r => {
+    sw = r.active;
+  });
+
   fetch('payload.json').then((response) => {
     performance.mark('benchmark-payload-loaded');
     return response.json();
   }).then(() => {
     performance.mark('benchmark-payload-read');
     performance.mark('fullyLoaded');
+    console.log('SW present? ' + sw);
   });
 })(self);

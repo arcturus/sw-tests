@@ -52,6 +52,22 @@
         }
       }
     },
+    "fetch-with-sww": {
+      "launch_path": "/fetch-with-sww/index.html",
+      "name": "Fetch via SWW Benchmark",
+      "icons": {
+        "16": "/img/icons/icon16x16.png",
+         "48": "/img/icons/icon48x48.png",
+         "60": "/img/icons/icon60x60.png",
+         "128": "/img/icons/icon128x128.png"
+      },
+      "locales": {
+        "en-US": {
+          "name": "Fetch SWW Benchmark",
+          "description": "Fetch via SWW Benchmark"
+        }
+      }
+    },
     "simple-offline-cache": {
       "launch_path": "simple-offline-cache/index.html",
       "name": "SimpleOfflineCache Benchmark",
@@ -65,6 +81,22 @@
         "en-US": {
           "name": "SimpleOfflineCache Benchmark",
           "description": "SimpleOfflineCache Benchmark"
+        }
+      }
+    },
+    "sww-minified": {
+      "launch_path": "/sww-minified/index.html",
+      "name": "SWW minified Benchmark",
+      "icons": {
+        "16": "/img/icons/icon16x16.png",
+         "48": "/img/icons/icon48x48.png",
+         "60": "/img/icons/icon60x60.png",
+         "128": "/img/icons/icon128x128.png"
+      },
+      "locales": {
+        "en-US": {
+          "name": "SWW minified Benchmark",
+          "description": "SWW minified Benchmark"
         }
       }
     }
